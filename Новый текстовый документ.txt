@@ -1,0 +1,33 @@
+Добавить в ЦСС:
+
+.codeBlock {
+    width: 800px;
+    margin: auto;
+    background-color: #aaba9a;
+    border-radius: 10px;
+    padding: 20px;
+    border: groove #909e81 3px;
+}
+.acceptionBlock label {
+    margin-right: 20px;
+}
+.codeBlock h4 span {
+    font: icon;
+    position: absolute;
+    margin-top: 20px;
+}
+.codeBlock h2 {
+    margin: 0px 0px;
+}
+.codeBlock .spaceBetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+Добавить в JS: 
+
+$.getJSON('randomSnippet.json', function(data){
+ 
+    $("<b>" + data.snippetName + "</b>").prependTo($(".SnipName"));
+    $("<span>" + data.uploadDate + "</span>").prependTo($(".release"));
+});

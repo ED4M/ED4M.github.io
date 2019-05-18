@@ -1,0 +1,83 @@
+body {
+    background-color: #faebd6;
+    margin: 0px;
+    margin-top: -40px;
+}
+/* .border1 {
+    border: 2px solid green;
+}
+.border2 {
+    border: 2px solid red;
+}
+.border3 {
+    border: 2px solid blue;
+} */
+.navBar {
+    margin-bottom: 100px;
+    font-size: 40px;
+    height: 40px;
+    padding-left: 15px;
+    text-decoration: none;
+    user-select: none; /* убирать выделение текста */
+    border-bottom: 1.5px solid black;
+}
+.container{
+    width: 100%;
+}
+.color{
+    background-color: #efdece;
+}
+.userInfoBlock {
+    /* border: 2px solid green; */
+    padding: 20px;
+    width: 38%;
+}
+.userSnippets {
+    /* border: 2px solid red; */
+    width: 62%;
+    padding: 0px 15px 0px;
+}
+.flexColumn {
+    flex-direction: column;
+}
+.radius {
+    border-radius: 10px;
+}
+.flexContainer {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.button {
+    border-radius:  5px;
+    background: #efdece;
+    padding: 5px;
+    box-shadow: none;
+    border: 1px solid #aaabab;
+    text-decoration: none;
+    user-select: none;
+}
+.userInfo {
+    max-width: 250px;
+    border: 1px solid black;
+    padding: 0px 10px;
+    margin-top: 31px;
+}
+.creatingSnippet {
+    width: 74%;
+    padding: 0px 25px;
+}
+.tagPanel {
+    width: 26%;
+    padding: 74px 25px 0px;
+}
+.tagList {
+    width: 200px;
+}
+textarea {
+    outline: none;
+    border-radius: 10px;
+}
+a {
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+}

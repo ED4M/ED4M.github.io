@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="newStyle.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+    <script src="jquery.js"></script>
+    <script src="LOX.js"></script>
+    <title>SnippetHub</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navBar">
+            <a href="" class="logo" title="Main Page">SCS</a>
+            <div class="searchBox">
+                <form action="">
+                    <input type="input" name="search" id="search" placeholder="Search for...">
+                    <button class="icon"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <a href="register.html" class="headlink">Sing Up</a>
+            <div class="signIn">
+                <button class="login-button"><i class="fas fa-key"></i></button>
+                <div class="login-content">
+                    <form class="login-form">
+                        <input id="username" type="email" name="Email" placeholder="Ваш email адрес" required>   
+                        <input id="password" type="password" name="Password" placeholder="Пароль" required>
+                        <div class="buttonBlock">
+                            <input type="submit" id="submit" value="Войти">
+                            <label><input type="checkbox" value="Remember me"><div>Remember me</div></label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <a href="creatingSnippet.html" style="display: none;" class="headlink">Create new snippet</a>       
+            <a href="cabinet.html" style="display: none;" class="headlink">Profile</a>
+            <a href="creatingSnippet.html" style="display: none;" class="headlink">AdminPanel</a>   
+                    
+        </div>
+        <div class="mainBlock">
+            <div class="emptyField">
+                <br>
+            </div>
+            <div class="usersSnippets"></div>
+            <div class="searchResults"><button class="closeResults"><i class="far fa-times-circle"></i></button></div>
+            <div class="popularSearch">
+                <p>Popular search:</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

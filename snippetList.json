@@ -1,0 +1,22 @@
+[{
+    "snippetName":"Hello",
+    "user_id":1,
+    "approved":false,
+    "tags":"#hello #my #friend",
+    "code_text":null,
+    "uploadDate":"2018-10-25",
+    "likesCount":0,
+    "snippetId":7,
+    "plid":1
+},
+{
+    "snippetName":"goodbuy",
+    "user_id":1,
+    "approved":false,
+    "tags":"#hello",
+    "code_text":null,
+    "uploadDate":"2018-10-25",
+    "likesCount":0,
+    "snippetId":7,
+    "plid":1
+}]

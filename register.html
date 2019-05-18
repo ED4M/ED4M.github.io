@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Новый Сниппет</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="newStyle.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+    <script src="jquery.js"></script>
+    <script src="LOX.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="navBar">
+            <a href="mainPage.html" class="logo" title="Main Page">SCS</a>
+            <div class="searchBox">
+                <form action="">
+                    <input type="input" name="search" id="search" placeholder="Search for...">
+                    <button class="icon"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <a href="register.html" class="headlink">Registration</a>
+            <div class="signIn">
+                <button class="login-button"><i class="fas fa-key"></i></button>
+                <div class="login-content">
+                    <form class="login-form">
+                        <input id="username" type="email" name="Email" placeholder="Ваш email адрес" required>   
+                        <input id="password" type="password" name="Password" placeholder="Пароль" required>
+                        <div class="buttonBlock">
+                            <input type="submit" id="submit" value="Войти">
+                            <label><input type="checkbox" value="Remember me"><div>Remember me</div></label>
+                        </div>
+                    </form>
+                </div>
+            </div> 
+        </div>
+        <form class="registerContainer" action="" name="newSnippet">
+           <p>Registration</p>
+           <div><input class="inputWindow regWindow" type="text" name="nickname" id="f1" required autocomplete="nickname" placeholder="UserLOX"><span></span></div>
+           <div><input class="inputWindow regWindow" type="email" name="mail" id="f2" required autocomplete="e-mail" placeholder="user@lox.ru"><span></span></div>
+           <div><input class="inputWindow regWindow" type="password" name="pass1" id="f3" required autocomplete="new-password" placeholder="passwordLOX"></div>
+           <div><input class="inputWindow regWindow" type="password" name="pass2" id="f4" required  placeholder="ConfirmPasswordLOX"></div>
+           <div class="acceptionBlock">
+               <label><input class="acception" type="checkbox" name="acception" required>I have read and accept <a href="termsofservice.txt">Terms of Service</a></label>
+                <input class="button" type="button" value="Register">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

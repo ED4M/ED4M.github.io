@@ -1,0 +1,39 @@
+.container{
+    position: relative;
+    max-width: 900px; /* Ширина элемента в пикселах */
+    padding: 10px; /* Поля вокруг текста */
+    margin: 10px auto; /* Выравниваем по центру */
+    background-color: #faebd6;
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.navBar ul{
+    
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    background-color: rgb(252, 252, 252);
+}
+/* #navBar li {display: inline-block;} */
+.searchLogin{
+    /* float: right; */
+    position: absolute;
+    top: 20px;
+    right: 80px;
+    
+}
+.searchLogin a {
+    position: absolute;
+    right: -60px;
+    bottom: 0px;
+
+}
+.newSnippetBlock {
+    position: absolute;
+
+}
+.myCodeBlock{
+    float: right;
+    margin-left: 200px;
+}

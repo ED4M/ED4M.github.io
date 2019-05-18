@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Новый Сниппет</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="newStyle.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+    <script src="jquery.js"></script>
+    <script src="LOX.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="navBar">
+            <a href="mainPage.html" class="logo" title="Main Page">SCS</a>
+            <div class="searchBox">
+                <form action="">
+                    <input type="input" name="search" id="search" placeholder="Search for...">
+                    <button class="icon"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <div class="signIn">
+                <button><i class="fas fa-sign-out-alt"></i></button>
+            </div>
+        </div>
+        <div class="flexContainer">
+            <div class="userInfoBlock">
+                <form action="" class="userInfo window">
+                    <p>
+                        <label for="nickname">Nickname : </label>
+                        <output name="nickname"></output>
+                    </p>
+                    <p>
+                        <label for="email">e-mail : </label>
+                        <output name="email"></output>
+                    </p>                
+                </form>
+                <br>
+                <input type="button" class="button" value="Add new snippet:" onclick="javascript:window.location='creatingSnippet.html'"/>
+            </div>
+            <div class="userSnippets">
+                <p>Your snippets:</p>
+                <div class="userSnippetContainer">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
