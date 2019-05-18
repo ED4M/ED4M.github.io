@@ -1,8 +1,8 @@
 [{
-    "snippetName":"ebaniy",
+    "snippetName":"QuickSort",
     "user_id":1,
     "approved":false,
-    "tags":"#hello #sanya #sosi",
+    "tags":"#hello #sample #hashtags",
     "code_text":null,
     "uploadDate":"2018-10-25",
     "likesCount":0,
@@ -10,7 +10,7 @@
     "plid":1
 },
 {
-    "snippetName":"poisk",
+    "snippetName":"MergeSort",
     "user_id":1,
     "approved":false,
     "tags":"#hello",
@@ -21,7 +21,7 @@
     "plid":1
 },
 {
-    "snippetName":"blyat",
+    "snippetName":"Node.JS stdin-out",
     "user_id":1,
     "approved":false,
     "tags":"#hello",
